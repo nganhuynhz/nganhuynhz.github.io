@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: nganhuynhz's Blog 
+title: nganhuynhz's Site 
 email: nganhuynhz@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  nganhuynhz's Blog
+  nganhuynhz's Site
 twitter_username: nganhuynhz
 github_username: nganhuynhz
 minimal_mistakes_skin: catppuccin_mocha
@@ -60,11 +60,8 @@ author:
   avatar : "/assets/images/profile.jpg"
   bio    : "Living the dream, one step at a time."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://nganhuynhz.me"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "X"
+      icon: "fa-brands fa-x-twitter"
       url: "https://x.com/nganhuynhz"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -75,8 +72,8 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
+    - label: "X"
+      icon: "fa-brands fa-x-twitter"
       url: "https://x.com/nganhuynhz"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
@@ -93,7 +90,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
       comments: true
       share: true
       related: true
